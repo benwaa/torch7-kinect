@@ -47,7 +47,6 @@ typedef struct sync_kinect {
 
 typedef int (*set_buffer_t)(freenect_device *dev, void *buf);
 
-#define MAX_KINECTS 64
 static sync_kinect_t *kinects[MAX_KINECTS] = {};
 static freenect_context *ctx;
 static int thread_running = 0;

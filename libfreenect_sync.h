@@ -29,6 +29,8 @@
 #include <libfreenect.h>
 #include <stdint.h>
 
+#define MAX_KINECTS 64
+
 #ifdef __cplusplus
 extern "C" {
 #endif
