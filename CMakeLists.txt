@@ -13,7 +13,7 @@ include_directories(${THREADS_PTHREADS_INCLUDE_DIR})
 
 IF (FREENECT_FOUND)
    SET(src libfreenect_sync.c kinect.c)
-   SET(luasrc init.lua Kinect.lua)
+   SET(luasrc init.lua)
    ADD_TORCH_PACKAGE(kinect "${src}" "${luasrc}" "kinect")
    INCLUDE_DIRECTORIES(${FREENECT_INCLUDE_DIR})
    TARGET_LINK_LIBRARIES(kinect luaT TH ${FREENECT_LIBRARIES})
