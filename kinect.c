@@ -23,7 +23,7 @@
  * Binary distributions must follow the binary distribution requirements of
  * either License.
  *
- * Lua Wrapper Written by: Benoit Corda // cordaben@gmail.com
+ * Lua Wrapper Written by: Benoit Corda
  * Created: May  1, 2012, 9:25AM
  */
 

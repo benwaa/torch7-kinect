@@ -12,7 +12,7 @@
 // Install:
 // http://openkinect.org/wiki/Getting_Started
 //
-// Author: Benoit Corda // cordaben@gmail.com
+// Author: Benoit Corda
 //======================================================================
 
 #include <luaT.h>

@@ -29,7 +29,7 @@
 --
 -- Created: April  13, 2012, 4:55PM
 --
--- Wrapper for Torch7/LUA: Benoit Corda -- cordaben@gmail.com
+-- Wrapper for Torch7/LUA: Benoit Corda
 --==============================================================================
 require 'torch'
 require 'dok'
